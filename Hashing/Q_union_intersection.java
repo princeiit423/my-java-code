@@ -35,6 +35,9 @@ public class Q_union_intersection {
             }
         }
         System.out.print(count);
+        // note jab bhi intersection a answer dekhna ho to union k code ko comment krna
+        // hoga
+        // ye wala code me tab sahi answer milega
 
     }
 }
