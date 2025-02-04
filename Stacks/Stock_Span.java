@@ -6,7 +6,7 @@ public class Stock_Span {
         span[0] = 1;
         s.push(0);
 
-        for (int i = 0; i < stocks.length; i++) {
+        for (int i = 1; i < stocks.length; i++) {
             int currPrice = stocks[i];
             while (currPrice > stocks[s.peek()] && !s.isEmpty()) {
                 s.pop();
