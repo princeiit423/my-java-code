@@ -17,7 +17,7 @@ public class reverseString {
     }
 
     public static void main(String args[]) {
-        String s = "Hello";
+        String s = "Faiz";
         Stack<Character> stack = new Stack<>();
         reverseString(s, stack);
     }
