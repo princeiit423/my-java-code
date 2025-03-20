@@ -1,4 +1,4 @@
-public class Climbing_Stairs {
+public class Climbing_Stairs_recurssion {
     public static int countWays(int n) {
         if (n == 0) {
             return 1;
